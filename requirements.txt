@@ -1,0 +1,3 @@
+openai
+Streamlit==1.33.0
+ollama
