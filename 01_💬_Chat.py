@@ -50,7 +50,7 @@ def main():
         if st.button("Go to settings to download a model"):
             st.page_switch("pages/03_⚙️_Settings.py")
 
-    message_container = st.container(height=500, border=True)
+    message_container = st.container(border=True)
 
     if "messages" not in st.session_state:
         st.session_state.messages = []
